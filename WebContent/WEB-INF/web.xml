@@ -1,31 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns="http://java.sun.com/xml/ns/javaee"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
-                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
-  version="3.0">
-  
-  	<!-- 注册一个servlet -->
-    <servlet>
-    	<!-- 为servlet定义一个名称 -->
-        <servlet-name>FirstServlet</servlet-name>
-        
-        <!-- servlet的类名 -->
-        <servlet-class>tengo.FirstServlet</servlet-class>   
-    </servlet>
-	
-	<!-- 为一个servlet配置对外映射的路径 -->
-	<servlet-mapping>
-	
-		<!-- 填上注册好的servlet的名称 -->
-        <servlet-name>FirstServlet</servlet-name>
-        
-        <!-- 对外访问的路径，注意，这里的/根路径，在实际上对外访问的时候需要加上webapp的名称
-        	如当前webapp的目录为http://localhost:8080/TengoWeb
-        	这里设置对外的根路径是基于以上路径的根目录的
-        	因此访问路径为 http://localhost:8080/TengoWeb/FirstServlet
-        	除非把当前的webapp设置为默认的，然后就可以把TengoWeb省略掉了
-        -->
-        <url-pattern>/FirstServlet</url-pattern>
-    </servlet-mapping>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <servlet-name>FirstServlet</servlet-name>
+    <servlet-class>tengo.FirstServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FirstServlet</servlet-name>
+    <url-pattern>/FirstServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
