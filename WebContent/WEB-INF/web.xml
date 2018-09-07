@@ -4,8 +4,25 @@
     <servlet-name>FirstServlet</servlet-name>
     <servlet-class>tengo.FirstServlet</servlet-class>
   </servlet>
+
+  <servlet>
+    <servlet-name>FirstHttpServlet</servlet-name>
+    <servlet-class>tengo.FirstHttpServlet</servlet-class>
+  </servlet>
+
+
   <servlet-mapping>
     <servlet-name>FirstServlet</servlet-name>
     <url-pattern>/FirstServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>FirstHttpServlet</servlet-name>
+    <url-pattern>*.jsp</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>FirstServlet</servlet-name>
+    <url-pattern>/FirstServlet/admin/*</url-pattern>
   </servlet-mapping>
 </web-app>
