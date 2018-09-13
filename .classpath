@@ -18,7 +18,7 @@
 	<classpathentry kind="lib" path="lib/spring-aop-4.3.9.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-aspects-4.3.9.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-beans-4.3.9.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-context-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-4.3.9.RELEASE.jar" sourcepath="lib_source/spring-context-4.3.9.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="lib/spring-context-support-4.3.9.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-core-4.3.9.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-expression-4.3.9.RELEASE.jar"/>
@@ -31,7 +31,7 @@
 	<classpathentry kind="lib" path="lib/spring-oxm-4.3.9.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-test-4.3.9.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-tx-4.3.9.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring-web-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-web-4.3.9.RELEASE.jar" sourcepath="lib_source/spring-web-4.3.9.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="lib/spring-webmvc-4.3.9.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-webmvc-portlet-4.3.9.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring-websocket-4.3.9.RELEASE.jar"/>
