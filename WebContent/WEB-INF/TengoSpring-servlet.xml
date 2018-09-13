@@ -10,8 +10,12 @@
 
    <context:component-scan base-package="controller" />
 
+	<!-- 指定视图所在的位置和视图的后缀 ！！！！！-->
    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+  	  <!-- 指定视图所在的位置-->
       <property name="prefix" value="/WEB-INF/jsp/" />
+      
+      <!-- 指定视图文件夹里面后缀为.jsp的文件将被作为视图渲染-->
       <property name="suffix" value=".jsp" />
    </bean>
 
